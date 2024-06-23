@@ -5,37 +5,7 @@
 The Notes App is a Flutter application developed with Flutter 3.10.0 and Dart 3.0.0. It uses the Bloc pattern for state management and follows Clean Architecture principles. The app features an industrial theme and integrates various utilities for improved functionality and development efficiency.
 
 ## Project Structure
-
-`lib/
-├── bloc/
-│   ├── note/
-│   │   ├── note_bloc.dart
-│   │   ├── note_event.dart
-│   │   ├── note_state.dart
-├── data/
-│   ├── models/
-│   │   ├── note.dart
-│   ├── repository/
-│   │   ├── note_repository.dart
-│   ├── service/
-│       ├── dio_service.dart
-│       ├── secure_storage_service.dart
-│       ├── navigation_service.dart
-├── presentation/
-│   ├── pages/
-│   │   ├── notes_page.dart
-│   ├── widgets/
-│       ├── note_item_widget.dart
-│       ├── notes_list_widget.dart
-├── utils/
-│   ├── app_routes.dart
-│   ├── app_colors.dart
-│   ├── app_theme.dart
-│   ├── logger.dart
-│   ├── enum.dart
-├── di/
-│   ├── injector.dart
-├── main.dart` 
+![Project Structure](https://private-user-images.githubusercontent.com/89655817/342064083-7072359b-cf6b-49d1-bc89-5317c9e35846.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTkxNDU3MzYsIm5iZiI6MTcxOTE0NTQzNiwicGF0aCI6Ii84OTY1NTgxNy8zNDIwNjQwODMtNzA3MjM1OWItY2Y2Yi00OWQxLWJjODktNTMxN2M5ZTM1ODQ2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjIzVDEyMjM1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwNTJhMjhmM2IwNzQ5MzExNDA4ZmE1MDc3YzJhYzcwOTE3YzI3YzUwMjBjM2MxMTdjZDQ5YTUzMWY5YzYxOTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.okBk5_skFx6F3w3Z9UwQGSh7GU5CkctMoAmv0YOYOIg)
 
 ## Features
 
@@ -48,7 +18,7 @@ The Notes App is a Flutter application developed with Flutter 3.10.0 and Dart 3.
 ## Dependencies
 
 Add the following dependencies to your `pubspec.yaml` file:
-![enter image description here](https://private-user-images.githubusercontent.com/89655817/342063851-126302c8-1c9c-4cb1-bf53-e050d3eca9e9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTkxNDU0OTMsIm5iZiI6MTcxOTE0NTE5MywicGF0aCI6Ii84OTY1NTgxNy8zNDIwNjM4NTEtMTI2MzAyYzgtMWM5Yy00Y2IxLWJmNTMtZTA1MGQzZWNhOWU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjIzVDEyMTk1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJiZGEzYjVkOTZjMDkxNzQzM2I0OGU5YTAxNWM0ODBmZWJiNDVjOWNhOThlMDI4YWNkMzgxYzUxMGU2MGFhZTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.cRRa6hXmhmIFo6Mvizpiq8g61DFnsS7184vnk8oj1iU)
+![pubspec.yaml](https://private-user-images.githubusercontent.com/89655817/342063851-126302c8-1c9c-4cb1-bf53-e050d3eca9e9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTkxNDU0OTMsIm5iZiI6MTcxOTE0NTE5MywicGF0aCI6Ii84OTY1NTgxNy8zNDIwNjM4NTEtMTI2MzAyYzgtMWM5Yy00Y2IxLWJmNTMtZTA1MGQzZWNhOWU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjIzVDEyMTk1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJiZGEzYjVkOTZjMDkxNzQzM2I0OGU5YTAxNWM0ODBmZWJiNDVjOWNhOThlMDI4YWNkMzgxYzUxMGU2MGFhZTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.cRRa6hXmhmIFo6Mvizpiq8g61DFnsS7184vnk8oj1iU)
 
 ## Dependency Injection (DI)
 
