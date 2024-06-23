@@ -18,9 +18,9 @@ import 'package:dio/src/transformer.dart' as _i4;
 import 'package:flutter/foundation.dart' as _i14;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart' as _i7;
 import 'package:mockito/mockito.dart' as _i1;
+import 'package:notes_app/data/models/note/note.dart' as _i16;
 import 'package:notes_app/data/repository/note_repository.dart' as _i15;
 import 'package:notes_app/data/services/dio_service.dart' as _i13;
-import 'package:notes_app/models/note/note.dart' as _i16;
 
 // ignore_for_file: type=lint
 // ignore_for_file: avoid_redundant_argument_values

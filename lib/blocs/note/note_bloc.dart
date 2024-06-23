@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/data/repository/note_repository.dart';
-import 'package:notes_app/models/note/note.dart';
 import 'package:notes_app/utils/enum.dart';
 
 part 'note_event.dart';

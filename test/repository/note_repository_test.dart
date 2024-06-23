@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/data/repository/note_repository.dart';
-import 'package:notes_app/models/note/note.dart';
 
 import '../mocks/mocks.mocks.dart';
 

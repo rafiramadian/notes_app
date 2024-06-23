@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/models/favorite_note/favorite_note.dart';
+import 'package:notes_app/data/models/favorite_note/favorite_note.dart';
 import 'package:notes_app/presentations/favorite/widgets/favorite_note_item.dart';
 
 class FavoriteNoteList extends StatelessWidget {

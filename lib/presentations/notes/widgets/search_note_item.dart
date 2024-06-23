@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:notes_app/blocs/note/note_bloc.dart';
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/data/services/navigation_service.dart';
 import 'package:notes_app/di/injector.dart';
-import 'package:notes_app/models/note/note.dart';
 import 'package:notes_app/presentations/notes/widgets/note_form_dialog.dart';
 import 'package:notes_app/utils/app_routes.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/models/note/note.dart';
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/utils/app_colors.dart';
 
 class NoteFormDialog extends StatefulWidget {
