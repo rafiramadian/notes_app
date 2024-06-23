@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/blocs/search%20note/search_note_bloc.dart';
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/data/services/navigation_service.dart';
 import 'package:notes_app/di/injector.dart';
-import 'package:notes_app/models/note/note.dart';
 import 'package:notes_app/utils/app_colors.dart';
 
 class SearchNoteForm extends StatefulWidget {

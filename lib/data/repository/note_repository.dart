@@ -1,5 +1,5 @@
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/data/services/dio_service.dart';
-import 'package:notes_app/models/note/note.dart';
 
 class NoteRepository {
   final DioService _dioService;

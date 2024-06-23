@@ -2,7 +2,7 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:notes_app/blocs/note/note_bloc.dart';
-import 'package:notes_app/models/note/note.dart';
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/utils/enum.dart';
 
 import '../mocks/mocks.mocks.dart';

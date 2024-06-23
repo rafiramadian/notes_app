@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable_panel/flutter_slidable_panel.dart';
 import 'package:notes_app/blocs/favorite_note/favorite_note_bloc.dart';
+import 'package:notes_app/data/models/favorite_note/favorite_note.dart';
 import 'package:notes_app/di/injector.dart';
-import 'package:notes_app/models/favorite_note/favorite_note.dart';
 
 class FavoriteNoteItem extends StatefulWidget {
   final FavoriteNote favoriteNote;

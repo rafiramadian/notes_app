@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes_app/models/note/note.dart';
+import 'package:notes_app/data/models/note/note.dart';
 
 part 'search_note_event.dart';
 part 'search_note_state.dart';

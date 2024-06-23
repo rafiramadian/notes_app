@@ -3,9 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable_panel/flutter_slidable_panel.dart';
 import 'package:notes_app/blocs/favorite_note/favorite_note_bloc.dart';
 import 'package:notes_app/blocs/note/note_bloc.dart';
+import 'package:notes_app/data/models/favorite_note/favorite_note.dart';
+import 'package:notes_app/data/models/note/note.dart';
 import 'package:notes_app/di/injector.dart';
-import 'package:notes_app/models/favorite_note/favorite_note.dart';
-import 'package:notes_app/models/note/note.dart';
 import 'package:notes_app/presentations/notes/widgets/note_form_dialog.dart';
 
 class NoteItem extends StatefulWidget {

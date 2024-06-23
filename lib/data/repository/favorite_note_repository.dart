@@ -1,7 +1,7 @@
 import 'dart:convert';
 
+import 'package:notes_app/data/models/favorite_note/favorite_note.dart';
 import 'package:notes_app/data/services/secure_storage_service.dart';
-import 'package:notes_app/models/favorite_note/favorite_note.dart';
 
 class FavoriteNoteRepository {
   final SecureStorageService _secureStorageService;

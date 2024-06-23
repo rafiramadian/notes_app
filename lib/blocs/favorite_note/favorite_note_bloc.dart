@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:notes_app/data/models/favorite_note/favorite_note.dart';
 import 'package:notes_app/data/repository/favorite_note_repository.dart';
-import 'package:notes_app/models/favorite_note/favorite_note.dart';
 
 part 'favorite_note_event.dart';
 part 'favorite_note_state.dart';
